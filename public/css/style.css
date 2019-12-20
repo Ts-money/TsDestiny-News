@@ -1,0 +1,162 @@
+body{
+    background-color: darkblue;
+    font-family: 'Nunito', sans-serif;
+}
+
+#topArea{
+    background-image: url("../images/world.jpg");
+    background-size: 100% 100%;
+    text-align: center;
+}
+
+#titleArea{
+    border-top: 3px black;
+    border-bottom: 3px black;
+    border-radius: 20px;
+    margin: 0 20%;
+    color: white;
+    background-color: rgb(35, 66, 35);
+    text-shadow: 2px 2px black; 
+}
+
+.intro{
+    border-top: 3px black;
+    border-bottom: 3px black;
+    border-radius: 20px;
+    color: whitesmoke;
+    background-color: rgb(106, 146, 46);
+    margin: 0 20%;
+    text-shadow: 2px 2px black;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.buttonRow{
+    border-top: 3px dashed black;
+    border-bottom: 3px dashed black;
+}
+
+button{
+    cursor: pointer;
+}
+
+h1, h2, h3, .articleGettingComment{
+    text-align: center;
+}
+
+.container h2{
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.container{
+    text-align: center;
+}
+
+#tagArea, #bylineArea{
+    border-right: 3px dashed black;
+}
+
+.panel{
+    border-radius: 10px;
+    background-color: white;
+    border: 2px solid black;
+}
+
+.fas{
+    float: right;
+}
+
+.panel-collapse{
+    border-top: 3px dashed black;
+}
+
+.headline{
+    padding-top: 15px;
+}
+
+.summary{
+    padding: 0 10%;
+}
+
+.comment{
+    margin: 0 auto;
+    width: 60%;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.deleteComment{
+   float:right;
+   position: relative;
+   right: 3%;
+}
+
+.tag{
+    border-radius: 15px;
+}
+
+.allButton{
+    margin: 20px 0 20px 55%;
+}
+
+.tagSearch{
+    margin: 20px 0 20px 6%;
+}
+
+.storyTag{
+    float: left;
+    font-size: 0.8rem;
+    padding: 10px;
+}
+
+.jsonButtons{
+    margin: 0 0 0 5%;
+}
+
+.jsonButtons h6{
+    margin-left: 6%;
+}
+
+#footer{
+    height: 50px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+#footer span{
+    position: relative;
+    top: 25%;
+}
+
+.modal-content{
+    background-color: #2f63a3;
+    color: white;
+    text-shadow: 2px 2px black;
+    border: 4px solid white;
+}
+
+@media screen and (max-width: 868px) {
+    .allButton{
+        margin: 20px 0 20px 40%;
+    }
+  }
+
+  @media screen and (max-width: 628px) {
+    .allButton{
+        margin: 20px 0 20px 20%;
+    }
+  }
+
+  @media screen and (max-width: 458px) {
+    .allButton{
+        margin: 20px 0 20px 0;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    #tagArea, #bylineArea{
+        border-right: none;
+    }
+  }
